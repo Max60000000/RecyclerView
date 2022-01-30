@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imageview"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="60dp"
+>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dsa">
+
+    </ImageView>
+
+
+    <TextView
+    android:layout_width="120dp"
+    android:layout_height="30dp"
+    android:text="Bharat"
+    android:id="@+id/textview"
+    android:textSize="20sp"
+    android:layout_toRightOf="@+id/imageview"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    >
+
+        </TextView>
+
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:text="10:43 am"
+        android:id="@+id/textview2"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/textview"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="75dp"
+        >
+
+        </TextView>
+
+
+
+        <TextView
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:text="How are you"
+        android:id="@+id/textview3"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/imageview"
+        android:layout_below="@+id/textview"
+
+        android:layout_marginLeft="20dp"
+        >
+
+     </TextView>
+
+
+         <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="________________"
+        android:id="@+id/divider"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/imageview"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        >
+
+    </TextView>
+
+    </RelativeLayout>
+
+
+
+  </RelativeLayout>
